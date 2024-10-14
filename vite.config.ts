@@ -49,6 +49,9 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  ssr: {
+    noExternal: ["@shopify/polaris-viz", "@shopify/polaris-viz-core"],
+  },
   build: {
     assetsInlineLimit: 0,
   },
