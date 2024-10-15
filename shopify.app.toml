@@ -1,14 +1,14 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "e7289aed23ffedc4f4a9345cedc8801d"
-name = "secondapp"
-handle = "secondapp-82"
-application_url = "https://op-furniture-person-llc.trycloudflare.com"
+client_id = "f97a31a2fcee36b52c462dc896ced73c"
+name = "dev-ilyosbek-practical"
+handle = "secondapp-83"
+application_url = "https://wax-candy-surfing-bin.trycloudflare.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "i-practical-project.myshopify.com"
+dev_store_url = "dev-ilyosbek-practical.myshopify.com"
 include_config_on_deploy = true
 
 [access_scopes]
@@ -17,9 +17,9 @@ scopes = "read_customers,read_inventory,read_orders,read_payment_terms,read_prod
 
 [auth]
 redirect_urls = [
-  "https://op-furniture-person-llc.trycloudflare.com/auth/callback",
-  "https://op-furniture-person-llc.trycloudflare.com/auth/shopify/callback",
-  "https://op-furniture-person-llc.trycloudflare.com/api/auth/callback"
+  "https://wax-candy-surfing-bin.trycloudflare.com/auth/callback",
+  "https://wax-candy-surfing-bin.trycloudflare.com/auth/shopify/callback",
+  "https://wax-candy-surfing-bin.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
